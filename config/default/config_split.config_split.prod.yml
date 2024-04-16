@@ -1,0 +1,20 @@
+uuid: 7cf665c5-9037-4b0e-9c8b-ceb1cb113778
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: Prod
+description: 'These are modules and configurations to enforce in the Cloud environment(s).'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/splits/prod
+module:
+  acquia_purge: 0
+  purge: 0
+  purge_queuer_coretags: 0
+theme: {  }
+complete_list:
+  - system.performance
+partial_list: {  }

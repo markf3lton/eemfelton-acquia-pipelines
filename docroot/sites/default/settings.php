@@ -897,3 +897,10 @@ $ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
 if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
   require $ddev_settings;
 }
+
+
+// The following settings allow me to specify which split I will use locally
+$config['config_split.config_split.prod']['status'] = FALSE;
+$config['config_split.config_split.local']['status'] = TRUE;
+
+
