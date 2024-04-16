@@ -119,3 +119,7 @@ oauth_keys/
 /.env*
 /.editorconfig
 /.gitattributes
+
+# files to ignore
+files-private/*
+.ddev
