@@ -5,7 +5,7 @@ dependencies: {  }
 id: local
 label: Local
 description: 'This is for modules and configurations to use in development environment(s).'
-weight: 0
+weight: 50
 stackable: false
 no_patching: false
 storage: folder
