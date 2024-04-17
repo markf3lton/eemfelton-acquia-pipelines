@@ -24,6 +24,12 @@
         "drupal/core-composer-scaffold": "^10",
         "drupal/core-recommended": "^10",
         "drupal/devel": "^5.2",
+        "drupal/purge": "^3.5",
+        "drupal/purge_drush": "^3.5",
+        "drupal/purge_processor_cron": "^3.5",
+        "drupal/purge_processor_lateruntime": "^3.5",
+        "drupal/purge_queuer_coretags": "^3.5",
+        "drupal/purge_ui": "^3.5",
         "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2"
     },

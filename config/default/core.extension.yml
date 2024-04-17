@@ -2,7 +2,6 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   acquia_cms_toolbar: 0
-  acquia_purge: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
   announcements_feed: 0
@@ -17,6 +16,7 @@ module:
   contact: 0
   contextual: 0
   datetime: 0
+  dblog: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -35,8 +35,6 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
-  purge: 0
-  purge_queuer_coretags: 0
   search: 0
   syslog: 0
   system: 0
